@@ -47,7 +47,13 @@ There's a few special files in the hierarchy.
 
 ## install
 
-Run this:
+Run this first:
+
+```sh
+xcode-select --install
+```
+
+Then run this:
 
 ```sh
 git clone https://github.com/holman/dotfiles.git ~/.dotfiles
