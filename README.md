@@ -56,7 +56,7 @@ xcode-select --install
 Then run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/jenkinz/holman-dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
