@@ -10,9 +10,7 @@ if test ! $(which brew)
 then
   echo "  Installing Homebrew for you."
 
-  # Install the correct homebrew for each OS type
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+  bash -c 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
 fi
 
 exit 0
