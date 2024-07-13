@@ -2,12 +2,15 @@ cask_args appdir: '/Applications'
 
 tap "homebrew/bundle"
 
+brew "coreutils"
 brew "git"
 brew "git-lfs"
 brew "node"
+brew "pnpm"
 brew "ruby-build"
 brew "tree"
 brew "wget"
+brew "yarn"
 
 cask "1password"
 cask "1password-cli"
