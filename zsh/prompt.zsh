@@ -70,7 +70,7 @@ conda_env() {
   if [[ -z "${CONDA_DEFAULT_ENV}" ]]; then
     echo ""
   else
-    echo " (${CONDA_DEFAULT_ENV})"
+    echo "(${CONDA_DEFAULT_ENV})"
   fi
 }
 
