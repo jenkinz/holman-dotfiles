@@ -59,7 +59,6 @@ Then run this:
 git clone https://github.com/jenkinz/holman-dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
-dot
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
