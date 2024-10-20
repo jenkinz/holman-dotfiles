@@ -23,6 +23,13 @@
 [apply]
         whitespace = nowarn
 [mergetool]
+        tool = bc
+[mergetool "bc"]
+        trustExitCode = true
+[diff]
+        tool = bc
+[difftool "bc"]
+        trustExitCode = true
         keepBackup = false
 [difftool]
         prompt = false
@@ -36,7 +43,7 @@
         default = simple
 [credential]
 	helper = osxkeychain
-	helper = 
+	helper =
 	helper = /usr/local/share/gcm-core/git-credential-manager
 [diff "spaceman-diff"]
   command = /opt/homebrew/bin/spaceman-diff
