@@ -43,12 +43,17 @@
         default = simple
 [credential]
 	helper = osxkeychain
-	helper =
+	helper = 
 	helper = /usr/local/share/gcm-core/git-credential-manager
 [diff "spaceman-diff"]
   command = /opt/homebrew/bin/spaceman-diff
 
 [init]
 	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [credential "https://dev.azure.com"]
 	useHttpPath = true
