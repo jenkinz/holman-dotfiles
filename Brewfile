@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap "homebrew/bundle"
+tap "teamookla/speedtest"
 
 brew "coreutils"
 brew "git"
@@ -8,6 +9,7 @@ brew "git-lfs"
 brew "node"
 brew "pnpm"
 brew "ruby-build"
+brew "speedtest"
 brew "tree"
 brew "wget"
 brew "yarn"
