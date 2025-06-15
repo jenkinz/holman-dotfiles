@@ -57,3 +57,7 @@
 	required = true
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+[credential "https://source.foundries.io"]
+	username = fio-oauth2
+	helper = fio
+	provider = generic
