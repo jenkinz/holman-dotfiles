@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap "homebrew/bundle"
 tap "teamookla/speedtest"
 
+brew "azure-cli"
 brew "coreutils"
 brew "git"
 brew "git-lfs"
