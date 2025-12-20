@@ -61,3 +61,6 @@
 	username = fio-oauth2
 	helper = fio
 	provider = generic
+[user]
+	name = Brian Jenkins
+	email = brian@jenkinz.com
