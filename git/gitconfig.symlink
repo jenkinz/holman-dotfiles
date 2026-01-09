@@ -59,7 +59,7 @@
 	useHttpPath = true
 [credential "https://source.foundries.io"]
 	username = fio-oauth2
-	helper = fio
+	helper = /usr/local/bin/fioctl git-credential-helper -c /Users/bjenkins/.config/fioctl.yaml
 	provider = generic
 [user]
 	name = Brian Jenkins
