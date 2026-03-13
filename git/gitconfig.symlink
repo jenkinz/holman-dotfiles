@@ -43,7 +43,7 @@
         default = simple
 [credential]
 	helper = osxkeychain
-	helper =
+	helper = 
 	helper = /usr/local/share/gcm-core/git-credential-manager
 [diff "spaceman-diff"]
   command = /opt/homebrew/bin/spaceman-diff
@@ -55,8 +55,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[credential "https://dev.azure.com"]
-	useHttpPath = true
 [user]
 	name = Brian Jenkins
 	email = brian@jenkinz.com
@@ -64,3 +62,5 @@
 	username = fio-oauth2
 	helper = /usr/local/bin/fioctl git-credential-helper -c /Users/bjenkins/.config/fioctl.yaml
 	provider = generic
+[credential "https://dev.azure.com"]
+	useHttpPath = true
