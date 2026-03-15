@@ -42,25 +42,24 @@
         # Setting to git 2.0 default to suppress warning message
         default = simple
 [credential]
-	helper = osxkeychain
-	helper = 
-	helper = /usr/local/share/gcm-core/git-credential-manager
+    helper = osxkeychain
+    helper =
+    helper = /usr/local/share/gcm-core/git-credential-manager
 [diff "spaceman-diff"]
   command = /opt/homebrew/bin/spaceman-diff
-
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 [user]
-	name = Brian Jenkins
-	email = brian@jenkinz.com
-[credential "https://source.foundries.io"]
-	username = fio-oauth2
-	helper = /usr/local/bin/fioctl git-credential-helper -c /Users/bjenkins/.config/fioctl.yaml
-	provider = generic
+    name = Brian Jenkins
+    email = brian@jenkinz.com
 [credential "https://dev.azure.com"]
-	useHttpPath = true
+    useHttpPath = true
+[credential "https://source.foundries.io"]
+    username = fio-oauth2
+    helper = /usr/local/bin/fioctl git-credential-helper -c /Users/bjenkins/.config/fioctl.yaml
+	provider = generic
